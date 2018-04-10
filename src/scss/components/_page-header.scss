@@ -1,0 +1,17 @@
+.page-header{
+  background:rgba(#000,0.05);
+  height: 80px;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+}
+.page-header .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
