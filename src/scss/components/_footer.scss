@@ -1,7 +1,23 @@
+.page-footer{
+  background:black;
+  height: 100px;
+  z-index: 2;
+
+  width: 100%;
+  left: 0;
+  top: 0;
+
+}
+.page-footer .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .page-nav{
   height: 100%;
-  font-size: 2em;
 }
 .page-nav-list{
   height: 100%;

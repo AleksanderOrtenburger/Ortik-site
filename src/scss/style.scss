@@ -1,9 +1,9 @@
+
 $colorBg: white;
-$fontFamily:'Nunito Sans', sans-serif;
-@import "mixins";
+$fontFamily:'Amatic SC', cursive;;
 @import "partials/normalize";
 @import "partials/global-class";
-@import "partials/print";
+
 
 
 
@@ -14,3 +14,6 @@ $fontFamily:'Nunito Sans', sans-serif;
 @import "components/main-map";
 @import "components/main-banner";
 @import "components/about-us";
+@import "components/recomendations";
+@import "components/contact";
+@import "components/footer";

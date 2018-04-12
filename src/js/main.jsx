@@ -3,28 +3,29 @@ import ReactDOM from 'react-dom';
 import PageHeader from './pageheader.jsx';
 import PageBanner from "./pagebanner.jsx";
 import About from "./about.jsx";
+import Recomendations from "./recomendations.jsx";
+import Contact from "./contact.jsx"
+import Footer from "./footer.jsx"
 
 
 document.addEventListener('DOMContentLoaded',() => {
 
-    class Hello extends React.Component {
+    class App extends React.Component {
         render() {
             return <div>
                     <PageHeader/>
                     <PageBanner/>
                     <About/>
-
+                    <Recomendations/>
+                    <Contact/>
+                    <Footer/>
                 </div>
         }
     }
 
-    // function Hello(props){
-    //     return <h1>Hello, {props.name} {props.surname}</h1>;
-    // }
-
     ReactDOM.render(
         <div>
-          <Hello/>
+          <App/>
         </div>,
         document.querySelector('#app')
     );

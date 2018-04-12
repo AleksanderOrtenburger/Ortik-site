@@ -1,0 +1,95 @@
+.recomendation{
+  height: 100vh;
+  background-image: url("../images/mainbanner.jpeg");
+  background-attachment: fixed;
+}
+.recomendation-main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/about.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: $fontFamily;
+
+}
+.recomendation-title{
+width: 100%;
+ padding-left: 5em;
+  height: 10%;
+  font-size: 4em;
+}
+.recomendation-content{
+display: flex;
+  width: 100%;
+  height: 90%;
+ }
+.recomendation-content-logo{
+
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recomendation-content-text{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2em;
+  cursor: pointer;
+
+}
+.recomendation-content-logo1{
+ width: 100%;
+  height: 20%;
+ background-image: url("../images/recomendation-logos/mercedes.png");
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+
+
+
+}
+.recomendation-content-logo2{
+  width: 100%;
+  height: 20%;
+  background-image: url("../images/recomendation-logos/trendglass.jpg");
+  background-repeat: no-repeat;
+
+}
+.recomendation-content-logo3{
+  width: 100%;
+  height: 20%;
+  background-image: url("../images/recomendation-logos/itmpoland.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+
+}
+.recomendation-content-logo4{
+  width: 100%;
+  height: 20%;
+  background-image: url("../images/recomendation-logos/leroymerlin.png");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+
+}
+.recomendation-content-text1{
+
+
+}
+.recomendation-content-text2{
+
+}
+.recomendation-content-text3{
+
+}
+.recomendation-content-text4{
+
+}
+
+.recomendation-content-text ul {
+  list-style: circle;
+}
+
+

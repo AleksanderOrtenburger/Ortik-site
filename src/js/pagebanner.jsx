@@ -19,6 +19,7 @@ import ReactDOM from 'react-dom';
 
 
      handleEnter = () => {
+         event.preventDefault();
          if(this.state.counter===0){
              this.setState({
                  counter:this.state.counter+1,
@@ -50,10 +51,11 @@ import ReactDOM from 'react-dom';
 
 
 
-     }
+     };
 
 
      handleLeave = ()=>{
+         event.preventDefault();
 
          if(this.state.counter===0){
              this.setState({
@@ -82,32 +84,35 @@ import ReactDOM from 'react-dom';
 
              })
          }
-     }
+     };
 
 
 
      render() {
-        return <div className="container">
-            <div id="arrow-left" className="arrow" onClick={this.handleLeave}></div>
-            <div id="slider">
-                <div className="slide slide1" style={{display:this.state.display}}>
-                    <div className="slide-content">
-                        <span style={{color:'black'}}>Meble to nasza pasja</span>
+        return<section className='mainbanner'>
+            <div className="container">
+                <div id="arrow-left" className="arrow" onClick={this.handleLeave}></div>
+                <div id="slider">
+                    <div className="slide slide1" style={{display:this.state.display}}>
+                        <div className="slide-content">
+                            <span style={{color:'black'}}>Meble to nasza pasja</span>
+                        </div>
+                    </div>
+                    <div className="slide slide2" style={{display:this.state.display2}}>
+                        <div className="slide-content">
+                            <span>Meble, które pokochasz</span>
+                        </div>
+                    </div>
+                    <div className="slide slide3" style={{display:this.state.display3}}>
+                        <div className="slide-content">
+                            <span>Meble, które pokochasz</span>
+                        </div>
                     </div>
                 </div>
-                <div className="slide slide2" style={{display:this.state.display2}}>
-                    <div className="slide-content">
-                        <span>Meble, które pokochasz</span>
-                    </div>
-                </div>
-                <div className="slide slide3" style={{display:this.state.display3}}>
-                    <div className="slide-content">
-                        <span>Meble, które pokochasz</span>
-                    </div>
-                </div>
+                <div id="arrow-right" className="arrow" onClick={this.handleEnter} ></div>
             </div>
-            <div id="arrow-right" className="arrow" onClick={this.handleEnter} ></div>
-        </div>
+            </section>
+
     }
 }
 // });
