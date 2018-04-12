@@ -1,7 +1,8 @@
 
 .aboutUs{
   font-family: $fontFamily;
-  height: 100vh;
+  height: 120vh;
+
   background-image: url("../images/mainbanner.jpeg");
   background-attachment: fixed;
   .aboutUsContainer{
@@ -12,6 +13,7 @@
 
 }
 .aboutUsCnt{
+
   display: flex;
   height: 100vh;
   align-items: center;

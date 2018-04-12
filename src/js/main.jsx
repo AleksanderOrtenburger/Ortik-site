@@ -6,6 +6,7 @@ import About from "./about.jsx";
 import Recomendations from "./recomendations.jsx";
 import Contact from "./contact.jsx"
 import Footer from "./footer.jsx"
+import Gallery from "./gallery.jsx"
 
 
 document.addEventListener('DOMContentLoaded',() => {
@@ -14,9 +15,10 @@ document.addEventListener('DOMContentLoaded',() => {
         render() {
             return <div>
                     <PageHeader/>
-                    <PageBanner/>
+                    <Gallery/>
                     <About/>
                     <Recomendations/>
+                    <PageBanner/>
                     <Contact/>
                     <Footer/>
                 </div>
