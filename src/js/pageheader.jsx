@@ -22,7 +22,7 @@ export default class PageHeader extends React.Component {
             return <header className="page-header">
                 <div className="container">
                     <a href="/"className="page_logo">
-                        <img src='./images/logo.png' alt='Zdjecie'/>
+                        <img src='./dist/images/logo.png' alt='Zdjecie'/>
                     </a>
                     <nav className="page-nav">
                         <ul className="page-nav-list">
