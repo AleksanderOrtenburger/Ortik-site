@@ -5,7 +5,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 export default class Footer extends React.Component {
     mouseClick = (e,index) => {
         e.preventDefault();
-        const randTab =[794,1430,0,2349] ;
+        const randTab =[0,794,1743,2585,3457] ;
         window.scroll({
             top:randTab[index],
             behavior: 'smooth'
@@ -19,10 +19,11 @@ export default class Footer extends React.Component {
                 </a>
                 <nav className="page-nav">
                     <ul className="page-nav-list">
-                        <li><a href="" onClick={e=>this.mouseClick(e,0)}>Oferta</a></li>
+                        <li><a href="" onClick={e=>this.mouseClick(e,0)}>Home</a></li>
                         <li><a href="" onClick={e=>this.mouseClick(e,1)}>O firmie</a></li>
-                        <li><a href="" onClick={e=>this.mouseClick(e,2)}>Kontakt</a></li>
+                        <li><a href="" onClick={e=>this.mouseClick(e,2)}>Rekomendacje</a></li>
                         <li><a href="" onClick={e=>this.mouseClick(e,3)}>Galeria</a></li>
+                        <li><a href="" onClick={e=>this.mouseClick(e,4)}>Kontakt</a></li>
                     </ul>
                 </nav>
             </div>

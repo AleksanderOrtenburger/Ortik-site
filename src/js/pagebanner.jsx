@@ -95,17 +95,17 @@ import ReactDOM from 'react-dom';
                 <div id="slider">
                     <div className="slide slide1" style={{display:this.state.display}}>
                         <div className="slide-content">
-                            <span style={{color:'black'}}>Meble to nasza pasja</span>
+
                         </div>
                     </div>
                     <div className="slide slide2" style={{display:this.state.display2}}>
                         <div className="slide-content">
-                            <span>Meble, które pokochasz</span>
+
                         </div>
                     </div>
                     <div className="slide slide3" style={{display:this.state.display3}}>
                         <div className="slide-content">
-                            <span>Meble, które pokochasz</span>
+
                         </div>
                     </div>
                 </div>

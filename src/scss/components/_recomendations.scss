@@ -6,7 +6,7 @@
 .recomendation-main{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 103vh;
   background-image: url("../images/about.jpeg");
   background-attachment: fixed;
   background-size: cover;
@@ -22,7 +22,7 @@ width: 100%;
 .recomendation-content{
 display: flex;
   width: 100%;
-  height: 90%;
+  height: 100%;
  }
 .recomendation-content-logo{
 
@@ -75,21 +75,39 @@ display: flex;
 
 }
 .recomendation-content-text1{
-
+height: 20%;
 
 }
 .recomendation-content-text2{
+  height: 20%;
 
 }
 .recomendation-content-text3{
+  height: 20%;
 
 }
 .recomendation-content-text4{
+  height: 20%;
 
 }
 
 .recomendation-content-text ul {
   list-style: circle;
+  font-size: 0.9em;
+  overflow:hidden;
+  transition: all 1s;
+  height: 0;
+
 }
-
-
+.recomendation-content-text1:hover ul {
+  height: 100%;
+}
+.recomendation-content-text2:hover ul {
+  height: 100%;
+}
+.recomendation-content-text3:hover ul {
+  height: 100%;
+}
+.recomendation-content-text4:hover ul {
+  height: 100%;
+}

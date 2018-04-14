@@ -46,7 +46,92 @@ width: 30vw;
   color: black;
   font-weight: 800;
   text-align: justify;
+  overflow: hidden;
 
 
 
+}
+.aboutUsCntText-1{
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in-out;
+
+}
+
+.aboutUsCntText-1{
+  animation-name: animation-1;
+}
+
+
+
+@keyframes animation-1 {
+  0% {  opacity: 0.1; }
+  25% {  opacity: 0.25; }
+  33.33%{  opacity: 0.33; }
+  50%{  opacity: 0.5; }
+  80%{  opacity: 0.8; }
+  90%{  opacity: 0.9; }
+  100%{  opacity: 1; }
+}
+.aboutUsCntText-2{
+  animation-duration: 1.7s;
+  animation-timing-function: ease-in-out;
+
+}
+
+.aboutUsCntText-2{
+  animation-name: animation-2;
+}
+
+
+
+@keyframes animation-2 {
+  0% {  opacity: 0.1; }
+  25% {  opacity: 0.25; }
+  33.33%{  opacity: 0.33; }
+  50%{  opacity: 0.5; }
+  80%{  opacity: 0.8; }
+  90%{  opacity: 0.9; }
+  100%{  opacity: 1; }
+}
+.aboutUsCntText-3{
+  animation-duration: 1.8s;
+  animation-timing-function: ease-in-out;
+
+}
+
+.aboutUsCntText-3{
+  animation-name: animation-3;
+}
+
+
+
+@keyframes animation-3 {
+  0% {  opacity: 0.1; }
+  25% {  opacity: 0.25; }
+  33.33%{  opacity: 0.33; }
+  50%{  opacity: 0.5; }
+  80%{  opacity: 0.8; }
+  90%{  opacity: 0.9; }
+  100%{  opacity: 1; }
+}
+.aboutUsCntText-4{
+  animation-duration: 1.9s;
+  animation-timing-function: ease-in-out;
+
+}
+
+.aboutUsCntText-4{
+  animation-name: animation-4;
+}
+
+
+
+@keyframes animation-4 {
+  0% {  opacity: 0.1; }
+  25% {  opacity: 0.25; }
+  33.33%{  opacity: 0.33; }
+  50%{  opacity: 0.5; }
+  80%{  opacity: 0.8; }
+  90%{  opacity: 0.9; }
+  100%{  opacity: 1; }
 }
