@@ -27,7 +27,7 @@ export default class About extends React.Component {
 
             })
         }
-        if(window.scrollY>1499 ||window.scrollY<400){
+        if(window.scrollY>1498 ||window.scrollY<400){
             this.setState({
                 class1:'',
                 class2:'',
