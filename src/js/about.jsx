@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
-
-
-
 export default class About extends React.Component {
     constructor(props){
         super(props);
@@ -13,8 +9,6 @@ export default class About extends React.Component {
             class2:'',
             class3:'',
             class4:'',
-
-
         }
     }
     aboutScroll = ()=>{
@@ -38,16 +32,7 @@ export default class About extends React.Component {
         }
 
 
-    }
-    componentDidMount(){
-        window.addEventListener("scroll",this.aboutScroll );
-    }
-
-
-
-
-
-
+    };
     render() {
 
         return <section className="aboutUs" >
@@ -59,11 +44,7 @@ export default class About extends React.Component {
 
                             <span className={this.state.class1}> Misją naszej firmy jest pomaganie klientom w tworzeniu ergonomicznego środowiska pracy, sprzyjającego zdrowiu i wydajności. Klientowi proponujemy optymalne rozwiązania, najlepiej zaspakajające jego potrzeby.  Za nadrzędny cel uważamy satysfakcję inwestora. We współpracy zarówno z dostawcami, jak i klientami stawiamy na wieloletnie partnerstwo.</span>
 
-
-
                           <span className={this.state.class2}>ORTIK  zapewnia sprawną obsługę, dobrą logistykę i szybki oraz sprawny serwis techniczny. Pracownicy o wysokich kwalifikacjach gwarantują profesjonalizm i wysoką jakość obsługi.Staramy się działać elastycznie i dostosowywać ofertę do zmiennych oczekiwań rynku.  Nasz zespół posiada wieloletnie doświadczenie w obsłudze dużych inwestycji oraz współpracy ze znanymi pracowniami architektonicznymi.</span>
-
-
 
                            <span className={this.state.class3}>Staramy się działać elastycznie i dostosowywać ofertę do zmiennych oczekiwań rynku.  Nasz zespół posiada wieloletnie doświadczenie w obsłudze dużych inwestycji oraz współpracy ze znanymi pracowniami architektonicznymi.Dzięki dużemu doświadczeniu oraz  wysokiej kulturze organizacyjnej jesteśmy w stanie sprostać stale rosnącym wymaganiom naszych klientów.</span>
 

@@ -17,8 +17,8 @@ export default class Footer extends React.Component {
                 <a href="/"className="page_logo">
                     <img src='./dist/images/logo.png' alt='Zdjecie'/>
                 </a>
-                <nav className="page-nav">
-                    <ul className="page-nav-list">
+                <nav className="page-foot">
+                    <ul className="page-foot-list">
                         <li><a href="" onClick={e=>this.mouseClick(e,0)}>Home</a></li>
                         <li><a href="" onClick={e=>this.mouseClick(e,1)}>O firmie</a></li>
                         <li><a href="" onClick={e=>this.mouseClick(e,2)}>Rekomendacje</a></li>

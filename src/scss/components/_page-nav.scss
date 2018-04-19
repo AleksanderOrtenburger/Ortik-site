@@ -2,13 +2,15 @@
 .page-nav{
   height: 100%;
   font-size: 2em;
+  display:flex ;
 }
 .page-nav-list{
   height: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: none;
+
 }
 .page-nav-list li{
   height: 100%;
@@ -16,7 +18,7 @@
 }
 .page-nav-list a{
   height: 100%;
-  padding: 0 15px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -31,4 +33,13 @@
   background: #FFFFFF;
   color: #333333;
 
+}
+.header__mobile-nav-link{
+  align-self: center;
+}
+.header__mobile-nav-link__line{
+  height: 0.5vh;
+  width: 2vw;
+  margin-bottom: 0.1em;
+  background: #424A4D;
 }

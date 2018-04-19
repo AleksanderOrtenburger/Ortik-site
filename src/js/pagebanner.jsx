@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 
 
 
-//
-// document.addEventListener('DOMContentLoaded', () => {
-
  export default class PageBanner extends React.Component {
      constructor(props){
          super(props);
@@ -16,8 +13,6 @@ import ReactDOM from 'react-dom';
              counter:0
          }
      }
-
-
      handleEnter = () => {
          event.preventDefault();
          if(this.state.counter===0){
@@ -44,26 +39,17 @@ import ReactDOM from 'react-dom';
                  display:'block',
                  display2:'none',
                  display3:'none',
-
              })
          }
-
-
-
-
      };
-
-
      handleLeave = ()=>{
          event.preventDefault();
-
          if(this.state.counter===0){
              this.setState({
                  counter:2,
                  display:'none',
                  display2:'none',
                  display3:'block'
-
              })
          }
          if(this.state.counter===1){
@@ -72,7 +58,6 @@ import ReactDOM from 'react-dom';
                  display:'block',
                  display2:'none',
                  display3:'none',
-
              })
          }
          if(this.state.counter===2){
@@ -81,13 +66,9 @@ import ReactDOM from 'react-dom';
                  display:'none',
                  display2:'block',
                  display3:'none',
-
              })
          }
      };
-
-
-
      render() {
         return<section className='mainbanner'>
             <div className="container">
@@ -95,17 +76,14 @@ import ReactDOM from 'react-dom';
                 <div id="slider">
                     <div className="slide slide1" style={{display:this.state.display}}>
                         <div className="slide-content">
-
                         </div>
                     </div>
                     <div className="slide slide2" style={{display:this.state.display2}}>
                         <div className="slide-content">
-
                         </div>
                     </div>
                     <div className="slide slide3" style={{display:this.state.display3}}>
                         <div className="slide-content">
-
                         </div>
                     </div>
                 </div>
@@ -115,5 +93,5 @@ import ReactDOM from 'react-dom';
 
     }
 }
-// });
+
 

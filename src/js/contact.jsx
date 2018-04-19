@@ -12,7 +12,6 @@ export default class Contact extends React.Component {
                 <div className="form-title">
                     <span>SKONTAKUJ SIĘ Z NAMI</span>
                 </div>
-
                 <div className="contact-details">
                     <div className="contact-details-name">
                         <span>Przedsiębiorstwo Wielobranżowe ORTIK</span>
